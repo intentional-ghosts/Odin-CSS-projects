@@ -1,0 +1,278 @@
+*,
+::before,
+::after{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(177, 172, 171);
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.page_links ul{
+    display: flex;
+    gap: 30px;
+}
+
+.links ul{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.logo{
+    width: 50px;
+    height:fit-content;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.525);
+}
+
+/* end of navigation bar sytles starting hero page*/
+
+.hero{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-image: url(/pictures/31d6799c-d6b8-4a46-b8df-470f3bd03945.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    gap: 50px;
+}
+
+.text{
+    max-width: 500;
+}
+
+.title{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.qoute{
+    margin-top:30px;
+    font-size: 30px;
+}
+
+.shop_button{
+    
+    width: 300px;
+    height: 70px; 
+    border-radius: 15%; 
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(247, 244, 244);
+    font-size: 20px;
+}
+
+.shop_button:hover{
+    background-color: rgba(243, 1, 1, 0.781);
+}
+
+/* end of the hero page starting the serves page gives information about all the seveses offered */
+
+
+
+.information_container{
+    display: flex;
+    background: rgb(190, 183, 183);
+    padding: 50px;
+}
+
+.services_description_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services_section_title{
+    font-size: 60px;
+}
+
+.product_name{
+    font-size: 30px;
+}
+
+.description{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.next_buttons{
+    display: flex;
+    gap: 150px;
+    width: auto;
+}
+
+.arrow_button{
+    width: 75px;
+    border-radius: 50%;
+}
+
+
+.product_picture{
+    height: 500px;
+    width:500px;
+    padding: 10px;
+}
+/* finished the services section and moveing onto the the about us page */
+
+.about_us_container{
+    display: flex;
+    align-items: center; 
+    background-color: rgb(129, 112, 112);
+    padding: 50px;
+}
+
+.about_us_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about_us_title{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.about_us_desription{
+    font-size: 30px;
+    padding: 60px;
+}
+
+.about_us_picture{
+    padding: 10px;
+}
+/* statring on the footer section */
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 400px;
+    background-color: #2C2828;
+    color: white;
+    font-size: 25px;
+
+}
+
+.socal_links{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.socal_img_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.socal_imgs{
+    display: flex; 
+    gap: 30px;
+}
+
+.img_box_container1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img_box_container2{
+    display: flex;
+    gap: 20px;
+}
+
+.box_lineing{
+    width: 300px;
+    height: 5.5px;
+    background-color: white;
+}
+
+.socal_images_size{
+    width: 50px;
+}
+
+.directing_link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.arrow{
+    width: 40px;
+}
+
+.dot{
+    width: 10px;
+    margin-left:5px ;
+}
+
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.displayed_time{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.list_days,
+.list_times{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 30;
+}
+
+
+.hours_title{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
